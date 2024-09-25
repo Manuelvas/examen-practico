@@ -18,3 +18,24 @@ Examen practico
 * Nota:
 
 
+
+Actividades del primer Sprint:
+1. Análisis y definición de requisitos:
+* Reunir los detalles específicos sobre cómo la comercial desea gestionar el inventario, ventas, devoluciones y el registro de clientes y usuarios.
+* Priorizar las funcionalidades que se implementarán en el primer sprint.
+2. Diseño básico del sistema:
+* Diseñar la arquitectura del sistema, especialmente cómo se estructurará la base de datos.
+* Crear prototipos simples de las interfaces para añadir productos y ventas.
+3. Desarrollo de la funcionalidad para gestionar productos:
+* Implementar la funcionalidad de agregar productos al inventario.
+* Crear una pantalla para registrar los productos con detalles como nombre, precio, cantidad, etc.
+4. Registrar clientes:
+* Implementar una funcionalidad básica para registrar clientes en el sistema.
+* Crear una tabla o módulo para almacenar la información del cliente.
+5. Configuración del entorno:
+* Asegurar que todo el equipo de desarrollo tenga el entorno configurado con el repositorio, IDE y herramientas necesarias.
+6. Pruebas iniciales:
+* Realizar pruebas básicas para verificar que las funcionalidades de agregar productos y registrar clientes funcionen correctamente.
+
+
+
