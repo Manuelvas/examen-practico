@@ -37,5 +37,132 @@ Actividades del primer Sprint:
 6. Pruebas iniciales:
 * Realizar pruebas básicas para verificar que las funcionalidades de agregar productos y registrar clientes funcionen correctamente.
 
+ITCA-FEPADE, Zacatecoluca
+* Ingeniero: 
+Herber Ernesto Mijango
+
+* Modulo: 
+Aplicación de metodología agiles y control de calidad de un software 
+
+* Integrantes: 
+José Manuel Mendoza Vásquez 
+            Juan Fernando Marroquín Escamilla
+
+* Actividad: 
+Examen practico
+
+*  Fecha:
+25/09/24
+
+* Nota:
+
+
+
+
+Actividades del primer Sprint:
+7. Análisis y definición de requisitos:
+* Reunir los detalles específicos sobre cómo la comercial desea gestionar el inventario, ventas, devoluciones y el registro de clientes y usuarios.
+* Priorizar las funcionalidades que se implementarán en el primer sprint.
+8. Diseño básico del sistema:
+* Diseñar la arquitectura del sistema, especialmente cómo se estructurará la base de datos.
+* Crear prototipos simples de las interfaces para añadir productos y ventas.
+9. Desarrollo de la funcionalidad para gestionar productos:
+* Implementar la funcionalidad de agregar productos al inventario.
+* Crear una pantalla para registrar los productos con detalles como nombre, precio, cantidad, etc.
+10. Registrar clientes:
+* Implementar una funcionalidad básica para registrar clientes en el sistema.
+* Crear una tabla o módulo para almacenar la información del cliente.
+11. Configuración del entorno:
+* Asegurar que todo el equipo de desarrollo tenga el entorno configurado con el repositorio, IDE y herramientas necesarias.
+12. Pruebas iniciales:
+* Realizar pruebas básicas para verificar que las funcionalidades de agregar productos y registrar clientes funcionen correctamente.
+
+Historias de Usuario:
+1. Vista de Productos
+Yo: Fernando (Desarrollador)
+Quiero: Que el sistema permita agregar nuevos productos al inventario con toda la información relevante.
+Para: Asegurar que se gestionen correctamente las ventas y que el inventario esté siempre actualizado.
+Criterios de aceptación:
+* El sistema debe permitir ingresar el nombre del producto, descripción, cantidad disponible, precio de compra y precio de venta.
+* El sistema debe validar que no se registren productos duplicados.
+* El sistema debe mostrar un mensaje de confirmación cuando el producto se haya agregado correctamente.
+Yo: Manuel (Encargado de la comercial)
+Quiero: Que el sistema permita registrar productos de manera eficiente con toda la información necesaria.
+Para: Mantener un orden claro en el inventario y facilitar la gestión de productos.
+Criterios de aceptación:
+* El sistema debe permitir ingresar el nombre del producto, precio de venta, cantidad en inventario, y una descripción detallada.
+* El inventario debe reflejar de inmediato los productos agregados para tener un registro organizado.
+* El sistema debe mostrar alertas si se intenta agregar un producto con información incompleta o errónea.
+2. Vista de Ventas
+Yo: Fernando (Desarrollador)
+Quiero: Que el sistema permita registrar la venta de productos y actualice automáticamente el inventario.
+Para: Que el sistema mantenga un control adecuado del inventario y registre correctamente las transacciones de venta.
+Criterios de aceptación:
+* El sistema debe permitir seleccionar productos del inventario, ingresar la cantidad vendida y calcular el total de la venta.
+* El sistema debe actualizar la cantidad de productos en el inventario.
+
+Yo: Manuel (Encargado de la comercial)
+Quiero: Que el sistema me permita realizar ventas y tener un registro detallado de cada transacción.
+Para: Mantener un control de las ventas y gestionar mejor el flujo de productos.
+Criterios de aceptación:
+* El sistema debe permitir registrar la venta de productos y generar un recibo con el total de la transacción.
+* El inventario debe reflejar la cantidad de productos vendidos de forma automática.
+3. Vista de Devoluciones
+Yo: Fernando (Desarrollador)
+Quiero: Que el sistema permita registrar devoluciones de productos dañados o defectuosos.
+Para: Que se pueda ajustar el inventario correctamente al recibir productos devueltos.
+Criterios de aceptación:
+* El sistema debe permitir seleccionar productos para devolución, ingresar la cantidad devuelta y la razón.
+* El inventario debe actualizarse restando los productos devueltos de los disponibles.
+Yo: Manuel (Encargado de la comercial)
+Quiero: Que el sistema permita registrar devoluciones de productos defectuosos o dañados.
+Para: Mantener un control sobre los productos devueltos y ajustar el inventario en consecuencia.
+Criterios de aceptación:
+* El sistema debe permitir registrar la devolución de productos indicando el motivo de la devolución.
+* El inventario debe reflejar la devolución y ajustar la cantidad de productos disponibles.
+4. Vista de Registrar Clientes
+Yo: Fernando (Desarrollador)
+Quiero: Que el sistema permita registrar nuevos clientes con sus datos de contacto.
+Para: Tener un registro ordenado de los clientes para futuras transacciones.
+Criterios de aceptación:
+* El sistema debe permitir registrar el nombre del cliente, dirección, número de teléfono y correo electrónico.
+* El sistema debe mostrar una lista actualizada de los clientes registrados.
+
+
+Yo: Manuel (Encargado de la comercial)
+Quiero: Que el sistema permita registrar clientes con sus datos personales y de contacto.
+Para: Mantener un registro organizado y poder contactar a los clientes fácilmente.
+Criterios de aceptación:
+* El sistema debe permitir agregar datos como nombre, dirección, número de teléfono y correo electrónico de los clientes.
+* El sistema debe permitir buscar y ver la lista de clientes registrados.
+
+5. Vista de Registrar Usuarios
+* Yo: Fernando (Desarrollador)
+Quiero: Que el sistema permita registrar usuarios del sistema con roles específicos (administradores, vendedores).
+Para: Gestionar el acceso y las autorizaciones dentro del sistema según el rol del usuario.
+Criterios de aceptación:
+* El sistema debe permitir registrar usuarios con su nombre, correo electrónico y rol (vendedor o administrador).
+* El sistema debe permitir asignar permisos específicos según el rol del usuario.
+* Yo: Manuel (Encargado de la comercial)
+Quiero: Que el sistema permita registrar usuarios con diferentes roles y asignarles permisos.
+Para: Tener un control sobre quién puede acceder al sistema y qué puede hacer dentro de él.
+Criterios de aceptación:
+* El sistema debe permitir registrar usuarios con roles específicos (administradores, vendedores).
+* El sistema debe mostrar una lista de usuarios registrados y permitir la gestión de sus roles.
+
+6. Vista de Quitar Productos
+* Yo: Fernando (Desarrollador)
+Quiero: Que el sistema permita eliminar productos del inventario cuando ya no estén disponibles o sean descontinuados.
+Para: Mantener un inventario actualizado con solo los productos activos.
+Criterios de aceptación:
+* El sistema debe permitir seleccionar productos para eliminar.
+* El sistema debe confirmar la eliminación antes de actualizar la base de datos.
+* Yo: Manuel (Encargado de la comercial)
+Quiero: Que el sistema permita eliminar productos que ya no estén disponibles o que se descontinúen.
+Para: Tener un control preciso de los productos activos en el inventario.
+Criterios de aceptación:
+* El sistema debe permitir seleccionar productos para eliminarlos del inventario.
+El sistema debe asegurar que los productos eliminados no aparezcan en las ventas o en la gestión del inventario.
+
 
 
